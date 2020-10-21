@@ -82,7 +82,7 @@ Lalu terdapat class Calculator sebagai logika untuk memproses penghitungan dan p
 }
 ```
 Kemudian agar dapat tampil di mainWindow maka di MainWindow.xaml.cs di edit menjadi seperti berikut,
-```
+```csharp
     public partial class MainWindow : Window
     {
         private Calculator calculator;
